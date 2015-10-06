@@ -309,6 +309,31 @@
                     weakTitle: "Esta senha é fraca",
                     generateMsg: "Para gerar uma senha forte, clique no botão {}."
             }
+        },
+		pl: {
+            lower: true,
+                msg: {
+                pass: "password",
+                    and: "i",
+                    showPass: "Pokaż hasło",
+                    hidePass: "Ukryj hasło",
+                    genPass: "Wygeneruj losowe hasło",
+                    passTooShort: "hasło jest za krótkie (minimalna długość: {})",
+                    noCharType: "hasło musi zawierać {}",
+                    digits: "cyfry",
+                    letters: "litery",
+                    lettersUp: "DUŻE litery",
+                    symbols: "symbole",
+                    inBlackList: "hasło jest na liście typowych haseł",
+                    passRequired: "hasło jest wymagane",
+                    equalTo: "hasło jest takie samo jak login",
+                    repeat: "hasło zawiera powtarzające się znaki",
+                    badChars: "hasło zawiera niedozwolone znaki: “{}”",
+                    weakWarn: "słabe hasło",
+                    invalidPassWarn: "*",
+                    weakTitle: "To hasło jest za słabe",
+                    generateMsg: "Aby wygenerować silne hasło, kliknij przycisk {}."
+            }
         }
     };
 })(window.jQuery, document, window);
